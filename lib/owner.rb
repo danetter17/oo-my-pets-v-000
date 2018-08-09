@@ -38,5 +38,9 @@ class Owner
   
   def buy_dog(name)
   end
+  
+  def play_with_cats
+    
+  end
 
 end
