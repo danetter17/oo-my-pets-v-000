@@ -7,4 +7,13 @@ class Fish
     @name = name
     @mood = "nervous"
   end
+  
+  def new_fish(name)
+    my_new_fish = self.new(name)
+    my_new_fish.owner_name = @owner
+    my_new_fish
+  end
+  
+  def owner_name=(name)
+    self.owner_na
 end
