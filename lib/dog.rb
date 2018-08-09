@@ -7,4 +7,13 @@ class Dog
     @name = name
     @mood = "nervous"
   end
+  
+  def new_dog(name)
+    my_new_dog = self.new(name)
+    my_new_dog.owner_name = @owner
+    my_new_dog
+  end
+  
+  def owner_name=(name)
+    
 end
