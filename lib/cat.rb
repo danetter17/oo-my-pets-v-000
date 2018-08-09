@@ -10,7 +10,7 @@ class Cat
   
   def self.new_cat(name)
     my_new_cat = self.new(name)
-    my_new_cat.owner_name = owner
+    my_new_cat.owner_name = @owner
     my_new_cat
   end 
   
