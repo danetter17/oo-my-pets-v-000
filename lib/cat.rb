@@ -8,13 +8,13 @@ class Cat
     @mood = "nervous"
   end
   
-  def self.new_cat(name)
-    my_new_cat = self.new(name)
-    my_new_cat.owner_name = @owner
-    my_new_cat
-  end 
+  # def self.new_cat(name)
+  #   my_new_cat = self.new(name)
+  #   my_new_cat.owner_name = @owner
+  #   my_new_cat
+  # end 
   
-  def owner_name=(name)
-    self.owner = Owner.buy_cat(name)
-  end
+  # def owner_name=(name)
+  #   self.owner = Owner.buy_cat(name)
+  # end
 end
