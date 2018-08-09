@@ -57,13 +57,10 @@ class Owner
     @pets.each do |type, pets| 
       pets.map {|pet| pet.mood = "nervous"}
     end    
-    # pets[:fishes].each {|fish| fish.mood = "nervous"}
-    # pets[:dogs].each {|dog| dog.mood = "nervous"}
-    # pets[:cats].each {|cat| cat.mood = "nervous"}
     @pets.clear
   end
   
   def list_pets
-    puts "I hvae #{pets[:fishes].length} fish, #{pets[:dogs].length} dog(s), and #{pets[:cats].length} cat(s)."
+    puts "I have #{pets[:fishes].length} fish, #{pets[:dogs].length} dog(s), and #{pets[:cats].length} cat(s)."
   end
 end
