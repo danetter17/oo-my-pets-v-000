@@ -15,5 +15,6 @@ class Fish
   end
   
   def owner_name=(name)
-    self.owner_na
+    self.owner = Owner.buy_fish(name)
+  end
 end
