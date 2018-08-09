@@ -14,7 +14,7 @@ class Dog
     my_new_dog
   end
   
-  def owner_name=(name)
-    self.owner = Owner.buy_dog(name)
-  end
+  # def owner_name=(name)
+  #   self.owner = Owner.buy_dog(name)
+  # end
 end
